@@ -104,7 +104,7 @@ psql
 ```
 Then
 ```
-CREATE USER catalog WITH PASSWORD 'password';
+CREATE USER catalog WITH PASSWORD '12345';
 CREATE DATABASE computershop WITH OWNER catalog;
 \c catalog
 REVOKE ALL ON SCHEMA public FROM public;
@@ -114,7 +114,8 @@ exit
 ```
 **Note:** In your catalog project you should change database engine to
 ```
-engine = create_engine('postgresql://catalog:password@localhost/computershop')
+engine = create_engine('postgresql://catalog:12345@localhost/computershop')
+"12345" is the password
 ```
 
 #### 10. Clone the Catalog app from GitHub and Configure it
