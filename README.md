@@ -80,7 +80,7 @@ server ```nano .ssh/authorized_keys```
 **Note** You can log in to your server using ssh from your local machine by using.
 
 ```
-sudo ssh grader@IP_ADDRESS -p 2200 -i ~/.ssh/authorized_keys
+sudo ssh grader@18.130.149.246 -p 2200 -i ~/.ssh/authorized_keys
 ```
 #### 7. Configure the local timezone to UTC.
 ```
