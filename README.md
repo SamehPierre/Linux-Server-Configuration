@@ -146,14 +146,14 @@ virtualenv env
 source env/bin/activate
 pip3 install -r requirements.txt
 ```
-- If you don't have `requirements.txt` file, you can use
+- or you can use this commands
 ```
 pip3 install flask packaging oauth2client redis passlib flask-httpauth
 pip3 install sqlalchemy flask-sqlalchemy psycopg2 bleach requests
 ```
 
 
-#### 12. Configure apache server
+#### 11. Configure apache server
 ```
 sudo nano /etc/apache2/sites-enabled/000-default.conf
 ```
@@ -181,7 +181,7 @@ Then add the following content:
 
 ```
 
-#### 14. Reload & Restart Apache Server
+#### 12. Reload & Restart Apache Server
 ```
 sudo service apache2 reload
 sudo service apache2 restart
