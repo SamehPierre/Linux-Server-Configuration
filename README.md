@@ -6,7 +6,7 @@
 
 * IP Address: 18.130.149.246
 * SSH Port: 2200
-* URL using DNS: [http://ec2-18-130-149-246.eu-west-2.compute.amazonaws.com]( )
+* URL using DNS: [http://ec2-18-130-149-246.eu-west-2.compute.amazonaws.com](http://ec2-18-130-149-246.eu-west-2.compute.amazonaws.com)
 
 
 ### Project steps
